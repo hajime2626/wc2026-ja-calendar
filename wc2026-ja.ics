@@ -1,0 +1,1364 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hajime2626//wc2026-ja-calendar//JA
+X-WR-CALNAME:2026 FIFAワールドカップ ⚽
+X-WR-TIMEZONE:UTC
+X-WR-CALDESC:2026 FIFAワールドカップ 全104試合（openfootball データ）
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+LAST-MODIFIED:20260608T101036Z
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+DTSTART:20260611T190000Z
+DTEND:20260611T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260611-mexico-southafrica-0@hajime2626.github.io
+SUMMARY:🇲🇽 MEX vs RSA 🇿🇦
+DESCRIPTION:グループA\nスタジアム: エスタディオ・アステ
+ カ（収容: 83,000人）\n所在地: メキシコシティ（メキシ
+ コ）
+LOCATION:エスタディオ・アステカ、メキシコシティ（メキ
+ シコ）
+CATEGORIES:グループA
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260612T020000Z
+DTEND:20260612T053000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260611-southkorea-czechrepubli-1@hajime2626.github.io
+SUMMARY:🇰🇷 KOR vs CZE 🇨🇿
+DESCRIPTION:グループA\nスタジアム: エスタディオ・アクロ
+ ン（収容: 48,000人）\n所在地: グアダラハラ・サポパン
+ （メキシコ）
+LOCATION:エスタディオ・アクロン、グアダラハラ・サポパ
+ ン（メキシコ）
+CATEGORIES:グループA
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260618T160000Z
+DTEND:20260618T193000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260618-czechrepubli-southafrica-2@hajime2626.github.io
+SUMMARY:🇨🇿 CZE vs RSA 🇿🇦
+DESCRIPTION:グループA\nスタジアム: メルセデス・ベンツ・
+ スタジアム（収容: 75,000人）\n所在地: アトランタ（米
+ 国）
+LOCATION:メルセデス・ベンツ・スタジアム、アトランタ（
+ 米国）
+CATEGORIES:グループA
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260619T010000Z
+DTEND:20260619T043000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260618-mexico-southkorea-3@hajime2626.github.io
+SUMMARY:🇲🇽 MEX vs KOR 🇰🇷
+DESCRIPTION:グループA\nスタジアム: エスタディオ・アクロ
+ ン（収容: 48,000人）\n所在地: グアダラハラ・サポパン
+ （メキシコ）
+LOCATION:エスタディオ・アクロン、グアダラハラ・サポパ
+ ン（メキシコ）
+CATEGORIES:グループA
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260625T010000Z
+DTEND:20260625T043000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260624-czechrepubli-mexico-4@hajime2626.github.io
+SUMMARY:🇨🇿 CZE vs MEX 🇲🇽
+DESCRIPTION:グループA\nスタジアム: エスタディオ・アステ
+ カ（収容: 83,000人）\n所在地: メキシコシティ（メキシ
+ コ）
+LOCATION:エスタディオ・アステカ、メキシコシティ（メキ
+ シコ）
+CATEGORIES:グループA
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260625T010000Z
+DTEND:20260625T043000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260624-southafrica-southkorea-5@hajime2626.github.io
+SUMMARY:🇿🇦 RSA vs KOR 🇰🇷
+DESCRIPTION:グループA\nスタジアム: エスタディオ・BBVA（収
+ 容: 53,500人）\n所在地: モンテレー・グアダルペ（メキ
+ シコ）
+LOCATION:エスタディオ・BBVA、モンテレー・グアダルペ（
+ メキシコ）
+CATEGORIES:グループA
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260612T190000Z
+DTEND:20260612T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260612-canada-bosniaherzeg-6@hajime2626.github.io
+SUMMARY:🇨🇦 CAN vs BIH 🇧🇦
+DESCRIPTION:グループB\nスタジアム: BMOフィールド（収容: 45
+ ,000人）\n所在地: トロント（カナダ）
+LOCATION:BMOフィールド、トロント（カナダ）
+CATEGORIES:グループB
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260613T190000Z
+DTEND:20260613T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260613-qatar-switzerland-7@hajime2626.github.io
+SUMMARY:🇶🇦 QAT vs SUI 🇨🇭
+DESCRIPTION:グループB\nスタジアム: リーバイス・スタジア
+ ム（収容: 71,000人）\n所在地: サンフランシスコ湾岸・
+ サンタクララ（米国）
+LOCATION:リーバイス・スタジアム、サンフランシスコ湾岸
+ ・サンタクララ（米国）
+CATEGORIES:グループB
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260618T190000Z
+DTEND:20260618T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260618-switzerland-bosniaherzeg-8@hajime2626.github.io
+SUMMARY:🇨🇭 SUI vs BIH 🇧🇦
+DESCRIPTION:グループB\nスタジアム: SoFiスタジアム（収容: 7
+ 0,000人）\n所在地: ロサンゼルス・イングルウッド（米
+ 国）
+LOCATION:SoFiスタジアム、ロサンゼルス・イングルウッド
+ （米国）
+CATEGORIES:グループB
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260618T220000Z
+DTEND:20260619T013000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260618-canada-qatar-9@hajime2626.github.io
+SUMMARY:🇨🇦 CAN vs QAT 🇶🇦
+DESCRIPTION:グループB\nスタジアム: BCプレイス（収容: 54,000
+ 人）\n所在地: バンクーバー（カナダ）
+LOCATION:BCプレイス、バンクーバー（カナダ）
+CATEGORIES:グループB
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260624T190000Z
+DTEND:20260624T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260624-switzerland-canada-10@hajime2626.github.io
+SUMMARY:🇨🇭 SUI vs CAN 🇨🇦
+DESCRIPTION:グループB\nスタジアム: BCプレイス（収容: 54,000
+ 人）\n所在地: バンクーバー（カナダ）
+LOCATION:BCプレイス、バンクーバー（カナダ）
+CATEGORIES:グループB
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260624T190000Z
+DTEND:20260624T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260624-bosniaherzeg-qatar-11@hajime2626.github.io
+SUMMARY:🇧🇦 BIH vs QAT 🇶🇦
+DESCRIPTION:グループB\nスタジアム: ルーメン・フィールド
+ （収容: 69,000人）\n所在地: シアトル（米国）
+LOCATION:ルーメン・フィールド、シアトル（米国）
+CATEGORIES:グループB
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260613T220000Z
+DTEND:20260614T013000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260613-brazil-morocco-12@hajime2626.github.io
+SUMMARY:🇧🇷 BRA vs MAR 🇲🇦
+DESCRIPTION:グループC\nスタジアム: メットライフ・スタジ
+ アム（収容: 82,500人）\n所在地: ニューヨーク/ニュージ
+ ャージー・イーストラザフォード（米国）
+LOCATION:メットライフ・スタジアム、ニューヨーク/ニュ
+ ージャージー・イーストラザフォード（米国）
+CATEGORIES:グループC
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260614T010000Z
+DTEND:20260614T043000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260613-haiti-scotland-13@hajime2626.github.io
+SUMMARY:🇭🇹 HAI vs SCO 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+DESCRIPTION:グループC\nスタジアム: ギレット・スタジアム
+ （収容: 65,000人）\n所在地: ボストン・フォックスボロ
+ （米国）
+LOCATION:ギレット・スタジアム、ボストン・フォックスボ
+ ロ（米国）
+CATEGORIES:グループC
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260619T220000Z
+DTEND:20260620T013000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260619-scotland-morocco-14@hajime2626.github.io
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 SCO vs MAR 🇲🇦
+DESCRIPTION:グループC\nスタジアム: ギレット・スタジアム
+ （収容: 65,000人）\n所在地: ボストン・フォックスボロ
+ （米国）
+LOCATION:ギレット・スタジアム、ボストン・フォックスボ
+ ロ（米国）
+CATEGORIES:グループC
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260620T003000Z
+DTEND:20260620T040000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260619-brazil-haiti-15@hajime2626.github.io
+SUMMARY:🇧🇷 BRA vs HAI 🇭🇹
+DESCRIPTION:グループC\nスタジアム: リンカーン・フィナン
+ シャル・フィールド（収容: 69,000人）\n所在地: フィラ
+ デルフィア（米国）
+LOCATION:リンカーン・フィナンシャル・フィールド、フィ
+ ラデルフィア（米国）
+CATEGORIES:グループC
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260624T220000Z
+DTEND:20260625T013000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260624-scotland-brazil-16@hajime2626.github.io
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 SCO vs BRA 🇧🇷
+DESCRIPTION:グループC\nスタジアム: ハードロック・スタジ
+ アム（収容: 65,000人）\n所在地: マイアミ・マイアミガ
+ ーデンズ（米国）
+LOCATION:ハードロック・スタジアム、マイアミ・マイアミ
+ ガーデンズ（米国）
+CATEGORIES:グループC
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260624T220000Z
+DTEND:20260625T013000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260624-morocco-haiti-17@hajime2626.github.io
+SUMMARY:🇲🇦 MAR vs HAI 🇭🇹
+DESCRIPTION:グループC\nスタジアム: メルセデス・ベンツ・
+ スタジアム（収容: 75,000人）\n所在地: アトランタ（米
+ 国）
+LOCATION:メルセデス・ベンツ・スタジアム、アトランタ（
+ 米国）
+CATEGORIES:グループC
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260613T010000Z
+DTEND:20260613T043000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260612-usa-paraguay-18@hajime2626.github.io
+SUMMARY:🇺🇸 USA vs PAR 🇵🇾
+DESCRIPTION:グループD\nスタジアム: SoFiスタジアム（収容: 7
+ 0,000人）\n所在地: ロサンゼルス・イングルウッド（米
+ 国）
+LOCATION:SoFiスタジアム、ロサンゼルス・イングルウッド
+ （米国）
+CATEGORIES:グループD
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260614T040000Z
+DTEND:20260614T073000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260613-australia-turkey-19@hajime2626.github.io
+SUMMARY:🇦🇺 AUS vs TUR 🇹🇷
+DESCRIPTION:グループD\nスタジアム: BCプレイス（収容: 54,000
+ 人）\n所在地: バンクーバー（カナダ）
+LOCATION:BCプレイス、バンクーバー（カナダ）
+CATEGORIES:グループD
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260619T190000Z
+DTEND:20260619T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260619-usa-australia-20@hajime2626.github.io
+SUMMARY:🇺🇸 USA vs AUS 🇦🇺
+DESCRIPTION:グループD\nスタジアム: ルーメン・フィールド
+ （収容: 69,000人）\n所在地: シアトル（米国）
+LOCATION:ルーメン・フィールド、シアトル（米国）
+CATEGORIES:グループD
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260620T030000Z
+DTEND:20260620T063000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260619-turkey-paraguay-21@hajime2626.github.io
+SUMMARY:🇹🇷 TUR vs PAR 🇵🇾
+DESCRIPTION:グループD\nスタジアム: リーバイス・スタジア
+ ム（収容: 71,000人）\n所在地: サンフランシスコ湾岸・
+ サンタクララ（米国）
+LOCATION:リーバイス・スタジアム、サンフランシスコ湾岸
+ ・サンタクララ（米国）
+CATEGORIES:グループD
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260626T020000Z
+DTEND:20260626T053000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260625-turkey-usa-22@hajime2626.github.io
+SUMMARY:🇹🇷 TUR vs USA 🇺🇸
+DESCRIPTION:グループD\nスタジアム: SoFiスタジアム（収容: 7
+ 0,000人）\n所在地: ロサンゼルス・イングルウッド（米
+ 国）
+LOCATION:SoFiスタジアム、ロサンゼルス・イングルウッド
+ （米国）
+CATEGORIES:グループD
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260626T020000Z
+DTEND:20260626T053000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260625-paraguay-australia-23@hajime2626.github.io
+SUMMARY:🇵🇾 PAR vs AUS 🇦🇺
+DESCRIPTION:グループD\nスタジアム: リーバイス・スタジア
+ ム（収容: 71,000人）\n所在地: サンフランシスコ湾岸・
+ サンタクララ（米国）
+LOCATION:リーバイス・スタジアム、サンフランシスコ湾岸
+ ・サンタクララ（米国）
+CATEGORIES:グループD
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260614T170000Z
+DTEND:20260614T203000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260614-germany-curaçao-24@hajime2626.github.io
+SUMMARY:🇩🇪 GER vs CUW 🇨🇼
+DESCRIPTION:グループE\nスタジアム: NRGスタジアム（収容: 72
+ ,000人）\n所在地: ヒューストン（米国）
+LOCATION:NRGスタジアム、ヒューストン（米国）
+CATEGORIES:グループE
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260614T230000Z
+DTEND:20260615T023000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260614-ivorycoast-ecuador-25@hajime2626.github.io
+SUMMARY:🇨🇮 CIV vs ECU 🇪🇨
+DESCRIPTION:グループE\nスタジアム: リンカーン・フィナン
+ シャル・フィールド（収容: 69,000人）\n所在地: フィラ
+ デルフィア（米国）
+LOCATION:リンカーン・フィナンシャル・フィールド、フィ
+ ラデルフィア（米国）
+CATEGORIES:グループE
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260620T200000Z
+DTEND:20260620T233000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260620-germany-ivorycoast-26@hajime2626.github.io
+SUMMARY:🇩🇪 GER vs CIV 🇨🇮
+DESCRIPTION:グループE\nスタジアム: BMOフィールド（収容: 45
+ ,000人）\n所在地: トロント（カナダ）
+LOCATION:BMOフィールド、トロント（カナダ）
+CATEGORIES:グループE
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260621T000000Z
+DTEND:20260621T033000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260620-ecuador-curaçao-27@hajime2626.github.io
+SUMMARY:🇪🇨 ECU vs CUW 🇨🇼
+DESCRIPTION:グループE\nスタジアム: アローヘッド・スタジ
+ アム（収容: 73,000人）\n所在地: カンザスシティ（米国
+ ）
+LOCATION:アローヘッド・スタジアム、カンザスシティ（米
+ 国）
+CATEGORIES:グループE
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260625T200000Z
+DTEND:20260625T233000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260625-curaçao-ivorycoast-28@hajime2626.github.io
+SUMMARY:🇨🇼 CUW vs CIV 🇨🇮
+DESCRIPTION:グループE\nスタジアム: リンカーン・フィナン
+ シャル・フィールド（収容: 69,000人）\n所在地: フィラ
+ デルフィア（米国）
+LOCATION:リンカーン・フィナンシャル・フィールド、フィ
+ ラデルフィア（米国）
+CATEGORIES:グループE
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260625T200000Z
+DTEND:20260625T233000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260625-ecuador-germany-29@hajime2626.github.io
+SUMMARY:🇪🇨 ECU vs GER 🇩🇪
+DESCRIPTION:グループE\nスタジアム: メットライフ・スタジ
+ アム（収容: 82,500人）\n所在地: ニューヨーク/ニュージ
+ ャージー・イーストラザフォード（米国）
+LOCATION:メットライフ・スタジアム、ニューヨーク/ニュ
+ ージャージー・イーストラザフォード（米国）
+CATEGORIES:グループE
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260614T200000Z
+DTEND:20260614T233000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260614-netherlands-japan-30@hajime2626.github.io
+SUMMARY:🇳🇱 NED vs JPN 🇯🇵
+DESCRIPTION:グループF\nスタジアム: AT&Tスタジアム（収容: 9
+ 4,000人）\n所在地: ダラス・アーリントン（米国）
+LOCATION:AT&Tスタジアム、ダラス・アーリントン（米国）
+CATEGORIES:グループF
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260615T020000Z
+DTEND:20260615T053000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260614-sweden-tunisia-31@hajime2626.github.io
+SUMMARY:🇸🇪 SWE vs TUN 🇹🇳
+DESCRIPTION:グループF\nスタジアム: エスタディオ・BBVA（収
+ 容: 53,500人）\n所在地: モンテレー・グアダルペ（メキ
+ シコ）
+LOCATION:エスタディオ・BBVA、モンテレー・グアダルペ（
+ メキシコ）
+CATEGORIES:グループF
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260620T170000Z
+DTEND:20260620T203000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260620-netherlands-sweden-32@hajime2626.github.io
+SUMMARY:🇳🇱 NED vs SWE 🇸🇪
+DESCRIPTION:グループF\nスタジアム: NRGスタジアム（収容: 72
+ ,000人）\n所在地: ヒューストン（米国）
+LOCATION:NRGスタジアム、ヒューストン（米国）
+CATEGORIES:グループF
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260621T040000Z
+DTEND:20260621T073000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260620-tunisia-japan-33@hajime2626.github.io
+SUMMARY:🇹🇳 TUN vs JPN 🇯🇵
+DESCRIPTION:グループF\nスタジアム: エスタディオ・BBVA（収
+ 容: 53,500人）\n所在地: モンテレー・グアダルペ（メキ
+ シコ）
+LOCATION:エスタディオ・BBVA、モンテレー・グアダルペ（
+ メキシコ）
+CATEGORIES:グループF
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260625T230000Z
+DTEND:20260626T023000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260625-japan-sweden-34@hajime2626.github.io
+SUMMARY:🇯🇵 JPN vs SWE 🇸🇪
+DESCRIPTION:グループF\nスタジアム: AT&Tスタジアム（収容: 9
+ 4,000人）\n所在地: ダラス・アーリントン（米国）
+LOCATION:AT&Tスタジアム、ダラス・アーリントン（米国）
+CATEGORIES:グループF
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260625T230000Z
+DTEND:20260626T023000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260625-tunisia-netherlands-35@hajime2626.github.io
+SUMMARY:🇹🇳 TUN vs NED 🇳🇱
+DESCRIPTION:グループF\nスタジアム: アローヘッド・スタジ
+ アム（収容: 73,000人）\n所在地: カンザスシティ（米国
+ ）
+LOCATION:アローヘッド・スタジアム、カンザスシティ（米
+ 国）
+CATEGORIES:グループF
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260615T190000Z
+DTEND:20260615T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260615-belgium-egypt-36@hajime2626.github.io
+SUMMARY:🇧🇪 BEL vs EGY 🇪🇬
+DESCRIPTION:グループG\nスタジアム: ルーメン・フィールド
+ （収容: 69,000人）\n所在地: シアトル（米国）
+LOCATION:ルーメン・フィールド、シアトル（米国）
+CATEGORIES:グループG
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260616T010000Z
+DTEND:20260616T043000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260615-iran-newzealand-37@hajime2626.github.io
+SUMMARY:🇮🇷 IRN vs NZL 🇳🇿
+DESCRIPTION:グループG\nスタジアム: SoFiスタジアム（収容: 7
+ 0,000人）\n所在地: ロサンゼルス・イングルウッド（米
+ 国）
+LOCATION:SoFiスタジアム、ロサンゼルス・イングルウッド
+ （米国）
+CATEGORIES:グループG
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260621T190000Z
+DTEND:20260621T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260621-belgium-iran-38@hajime2626.github.io
+SUMMARY:🇧🇪 BEL vs IRN 🇮🇷
+DESCRIPTION:グループG\nスタジアム: SoFiスタジアム（収容: 7
+ 0,000人）\n所在地: ロサンゼルス・イングルウッド（米
+ 国）
+LOCATION:SoFiスタジアム、ロサンゼルス・イングルウッド
+ （米国）
+CATEGORIES:グループG
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260622T010000Z
+DTEND:20260622T043000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260621-newzealand-egypt-39@hajime2626.github.io
+SUMMARY:🇳🇿 NZL vs EGY 🇪🇬
+DESCRIPTION:グループG\nスタジアム: BCプレイス（収容: 54,000
+ 人）\n所在地: バンクーバー（カナダ）
+LOCATION:BCプレイス、バンクーバー（カナダ）
+CATEGORIES:グループG
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260627T030000Z
+DTEND:20260627T063000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260626-egypt-iran-40@hajime2626.github.io
+SUMMARY:🇪🇬 EGY vs IRN 🇮🇷
+DESCRIPTION:グループG\nスタジアム: ルーメン・フィールド
+ （収容: 69,000人）\n所在地: シアトル（米国）
+LOCATION:ルーメン・フィールド、シアトル（米国）
+CATEGORIES:グループG
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260627T030000Z
+DTEND:20260627T063000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260626-newzealand-belgium-41@hajime2626.github.io
+SUMMARY:🇳🇿 NZL vs BEL 🇧🇪
+DESCRIPTION:グループG\nスタジアム: BCプレイス（収容: 54,000
+ 人）\n所在地: バンクーバー（カナダ）
+LOCATION:BCプレイス、バンクーバー（カナダ）
+CATEGORIES:グループG
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260615T160000Z
+DTEND:20260615T193000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260615-spain-capeverde-42@hajime2626.github.io
+SUMMARY:🇪🇸 ESP vs CPV 🇨🇻
+DESCRIPTION:グループH\nスタジアム: メルセデス・ベンツ・
+ スタジアム（収容: 75,000人）\n所在地: アトランタ（米
+ 国）
+LOCATION:メルセデス・ベンツ・スタジアム、アトランタ（
+ 米国）
+CATEGORIES:グループH
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260615T220000Z
+DTEND:20260616T013000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260615-saudiarabia-uruguay-43@hajime2626.github.io
+SUMMARY:🇸🇦 KSA vs URU 🇺🇾
+DESCRIPTION:グループH\nスタジアム: ハードロック・スタジ
+ アム（収容: 65,000人）\n所在地: マイアミ・マイアミガ
+ ーデンズ（米国）
+LOCATION:ハードロック・スタジアム、マイアミ・マイアミ
+ ガーデンズ（米国）
+CATEGORIES:グループH
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260621T160000Z
+DTEND:20260621T193000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260621-spain-saudiarabia-44@hajime2626.github.io
+SUMMARY:🇪🇸 ESP vs KSA 🇸🇦
+DESCRIPTION:グループH\nスタジアム: メルセデス・ベンツ・
+ スタジアム（収容: 75,000人）\n所在地: アトランタ（米
+ 国）
+LOCATION:メルセデス・ベンツ・スタジアム、アトランタ（
+ 米国）
+CATEGORIES:グループH
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260621T220000Z
+DTEND:20260622T013000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260621-uruguay-capeverde-45@hajime2626.github.io
+SUMMARY:🇺🇾 URU vs CPV 🇨🇻
+DESCRIPTION:グループH\nスタジアム: ハードロック・スタジ
+ アム（収容: 65,000人）\n所在地: マイアミ・マイアミガ
+ ーデンズ（米国）
+LOCATION:ハードロック・スタジアム、マイアミ・マイアミ
+ ガーデンズ（米国）
+CATEGORIES:グループH
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260627T000000Z
+DTEND:20260627T033000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260626-capeverde-saudiarabia-46@hajime2626.github.io
+SUMMARY:🇨🇻 CPV vs KSA 🇸🇦
+DESCRIPTION:グループH\nスタジアム: NRGスタジアム（収容: 72
+ ,000人）\n所在地: ヒューストン（米国）
+LOCATION:NRGスタジアム、ヒューストン（米国）
+CATEGORIES:グループH
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260627T000000Z
+DTEND:20260627T033000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260626-uruguay-spain-47@hajime2626.github.io
+SUMMARY:🇺🇾 URU vs ESP 🇪🇸
+DESCRIPTION:グループH\nスタジアム: エスタディオ・アクロ
+ ン（収容: 48,000人）\n所在地: グアダラハラ・サポパン
+ （メキシコ）
+LOCATION:エスタディオ・アクロン、グアダラハラ・サポパ
+ ン（メキシコ）
+CATEGORIES:グループH
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260616T190000Z
+DTEND:20260616T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260616-france-senegal-48@hajime2626.github.io
+SUMMARY:🇫🇷 FRA vs SEN 🇸🇳
+DESCRIPTION:グループI\nスタジアム: メットライフ・スタジ
+ アム（収容: 82,500人）\n所在地: ニューヨーク/ニュージ
+ ャージー・イーストラザフォード（米国）
+LOCATION:メットライフ・スタジアム、ニューヨーク/ニュ
+ ージャージー・イーストラザフォード（米国）
+CATEGORIES:グループI
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260616T220000Z
+DTEND:20260617T013000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260616-iraq-norway-49@hajime2626.github.io
+SUMMARY:🇮🇶 IRQ vs NOR 🇳🇴
+DESCRIPTION:グループI\nスタジアム: ギレット・スタジアム
+ （収容: 65,000人）\n所在地: ボストン・フォックスボロ
+ （米国）
+LOCATION:ギレット・スタジアム、ボストン・フォックスボ
+ ロ（米国）
+CATEGORIES:グループI
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260622T210000Z
+DTEND:20260623T003000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260622-france-iraq-50@hajime2626.github.io
+SUMMARY:🇫🇷 FRA vs IRQ 🇮🇶
+DESCRIPTION:グループI\nスタジアム: リンカーン・フィナン
+ シャル・フィールド（収容: 69,000人）\n所在地: フィラ
+ デルフィア（米国）
+LOCATION:リンカーン・フィナンシャル・フィールド、フィ
+ ラデルフィア（米国）
+CATEGORIES:グループI
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260623T000000Z
+DTEND:20260623T033000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260622-norway-senegal-51@hajime2626.github.io
+SUMMARY:🇳🇴 NOR vs SEN 🇸🇳
+DESCRIPTION:グループI\nスタジアム: メットライフ・スタジ
+ アム（収容: 82,500人）\n所在地: ニューヨーク/ニュージ
+ ャージー・イーストラザフォード（米国）
+LOCATION:メットライフ・スタジアム、ニューヨーク/ニュ
+ ージャージー・イーストラザフォード（米国）
+CATEGORIES:グループI
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260626T190000Z
+DTEND:20260626T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260626-norway-france-52@hajime2626.github.io
+SUMMARY:🇳🇴 NOR vs FRA 🇫🇷
+DESCRIPTION:グループI\nスタジアム: ギレット・スタジアム
+ （収容: 65,000人）\n所在地: ボストン・フォックスボロ
+ （米国）
+LOCATION:ギレット・スタジアム、ボストン・フォックスボ
+ ロ（米国）
+CATEGORIES:グループI
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260626T190000Z
+DTEND:20260626T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260626-senegal-iraq-53@hajime2626.github.io
+SUMMARY:🇸🇳 SEN vs IRQ 🇮🇶
+DESCRIPTION:グループI\nスタジアム: BMOフィールド（収容: 45
+ ,000人）\n所在地: トロント（カナダ）
+LOCATION:BMOフィールド、トロント（カナダ）
+CATEGORIES:グループI
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260617T010000Z
+DTEND:20260617T043000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260616-argentina-algeria-54@hajime2626.github.io
+SUMMARY:🇦🇷 ARG vs ALG 🇩🇿
+DESCRIPTION:グループJ\nスタジアム: アローヘッド・スタジ
+ アム（収容: 73,000人）\n所在地: カンザスシティ（米国
+ ）
+LOCATION:アローヘッド・スタジアム、カンザスシティ（米
+ 国）
+CATEGORIES:グループJ
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260617T040000Z
+DTEND:20260617T073000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260616-austria-jordan-55@hajime2626.github.io
+SUMMARY:🇦🇹 AUT vs JOR 🇯🇴
+DESCRIPTION:グループJ\nスタジアム: リーバイス・スタジア
+ ム（収容: 71,000人）\n所在地: サンフランシスコ湾岸・
+ サンタクララ（米国）
+LOCATION:リーバイス・スタジアム、サンフランシスコ湾岸
+ ・サンタクララ（米国）
+CATEGORIES:グループJ
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260622T170000Z
+DTEND:20260622T203000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260622-argentina-austria-56@hajime2626.github.io
+SUMMARY:🇦🇷 ARG vs AUT 🇦🇹
+DESCRIPTION:グループJ\nスタジアム: AT&Tスタジアム（収容: 9
+ 4,000人）\n所在地: ダラス・アーリントン（米国）
+LOCATION:AT&Tスタジアム、ダラス・アーリントン（米国）
+CATEGORIES:グループJ
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260623T030000Z
+DTEND:20260623T063000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260622-jordan-algeria-57@hajime2626.github.io
+SUMMARY:🇯🇴 JOR vs ALG 🇩🇿
+DESCRIPTION:グループJ\nスタジアム: リーバイス・スタジア
+ ム（収容: 71,000人）\n所在地: サンフランシスコ湾岸・
+ サンタクララ（米国）
+LOCATION:リーバイス・スタジアム、サンフランシスコ湾岸
+ ・サンタクララ（米国）
+CATEGORIES:グループJ
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260628T020000Z
+DTEND:20260628T053000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260627-algeria-austria-58@hajime2626.github.io
+SUMMARY:🇩🇿 ALG vs AUT 🇦🇹
+DESCRIPTION:グループJ\nスタジアム: アローヘッド・スタジ
+ アム（収容: 73,000人）\n所在地: カンザスシティ（米国
+ ）
+LOCATION:アローヘッド・スタジアム、カンザスシティ（米
+ 国）
+CATEGORIES:グループJ
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260628T020000Z
+DTEND:20260628T053000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260627-jordan-argentina-59@hajime2626.github.io
+SUMMARY:🇯🇴 JOR vs ARG 🇦🇷
+DESCRIPTION:グループJ\nスタジアム: AT&Tスタジアム（収容: 9
+ 4,000人）\n所在地: ダラス・アーリントン（米国）
+LOCATION:AT&Tスタジアム、ダラス・アーリントン（米国）
+CATEGORIES:グループJ
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260617T170000Z
+DTEND:20260617T203000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260617-portugal-drcongo-60@hajime2626.github.io
+SUMMARY:🇵🇹 POR vs COD 🇨🇩
+DESCRIPTION:グループK\nスタジアム: NRGスタジアム（収容: 72
+ ,000人）\n所在地: ヒューストン（米国）
+LOCATION:NRGスタジアム、ヒューストン（米国）
+CATEGORIES:グループK
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260618T020000Z
+DTEND:20260618T053000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260617-uzbekistan-colombia-61@hajime2626.github.io
+SUMMARY:🇺🇿 UZB vs COL 🇨🇴
+DESCRIPTION:グループK\nスタジアム: エスタディオ・アステ
+ カ（収容: 83,000人）\n所在地: メキシコシティ（メキシ
+ コ）
+LOCATION:エスタディオ・アステカ、メキシコシティ（メキ
+ シコ）
+CATEGORIES:グループK
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260623T170000Z
+DTEND:20260623T203000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260623-portugal-uzbekistan-62@hajime2626.github.io
+SUMMARY:🇵🇹 POR vs UZB 🇺🇿
+DESCRIPTION:グループK\nスタジアム: NRGスタジアム（収容: 72
+ ,000人）\n所在地: ヒューストン（米国）
+LOCATION:NRGスタジアム、ヒューストン（米国）
+CATEGORIES:グループK
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260624T020000Z
+DTEND:20260624T053000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260623-colombia-drcongo-63@hajime2626.github.io
+SUMMARY:🇨🇴 COL vs COD 🇨🇩
+DESCRIPTION:グループK\nスタジアム: エスタディオ・アクロ
+ ン（収容: 48,000人）\n所在地: グアダラハラ・サポパン
+ （メキシコ）
+LOCATION:エスタディオ・アクロン、グアダラハラ・サポパ
+ ン（メキシコ）
+CATEGORIES:グループK
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260627T233000Z
+DTEND:20260628T030000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260627-colombia-portugal-64@hajime2626.github.io
+SUMMARY:🇨🇴 COL vs POR 🇵🇹
+DESCRIPTION:グループK\nスタジアム: ハードロック・スタジ
+ アム（収容: 65,000人）\n所在地: マイアミ・マイアミガ
+ ーデンズ（米国）
+LOCATION:ハードロック・スタジアム、マイアミ・マイアミ
+ ガーデンズ（米国）
+CATEGORIES:グループK
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260627T233000Z
+DTEND:20260628T030000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260627-drcongo-uzbekistan-65@hajime2626.github.io
+SUMMARY:🇨🇩 COD vs UZB 🇺🇿
+DESCRIPTION:グループK\nスタジアム: メルセデス・ベンツ・
+ スタジアム（収容: 75,000人）\n所在地: アトランタ（米
+ 国）
+LOCATION:メルセデス・ベンツ・スタジアム、アトランタ（
+ 米国）
+CATEGORIES:グループK
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260617T200000Z
+DTEND:20260617T233000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260617-england-croatia-66@hajime2626.github.io
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 ENG vs CRO 🇭🇷
+DESCRIPTION:グループL\nスタジアム: AT&Tスタジアム（収容: 9
+ 4,000人）\n所在地: ダラス・アーリントン（米国）
+LOCATION:AT&Tスタジアム、ダラス・アーリントン（米国）
+CATEGORIES:グループL
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260617T230000Z
+DTEND:20260618T023000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260617-ghana-panama-67@hajime2626.github.io
+SUMMARY:🇬🇭 GHA vs PAN 🇵🇦
+DESCRIPTION:グループL\nスタジアム: BMOフィールド（収容: 45
+ ,000人）\n所在地: トロント（カナダ）
+LOCATION:BMOフィールド、トロント（カナダ）
+CATEGORIES:グループL
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260623T200000Z
+DTEND:20260623T233000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260623-england-ghana-68@hajime2626.github.io
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 ENG vs GHA 🇬🇭
+DESCRIPTION:グループL\nスタジアム: ギレット・スタジアム
+ （収容: 65,000人）\n所在地: ボストン・フォックスボロ
+ （米国）
+LOCATION:ギレット・スタジアム、ボストン・フォックスボ
+ ロ（米国）
+CATEGORIES:グループL
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260623T230000Z
+DTEND:20260624T023000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260623-panama-croatia-69@hajime2626.github.io
+SUMMARY:🇵🇦 PAN vs CRO 🇭🇷
+DESCRIPTION:グループL\nスタジアム: BMOフィールド（収容: 45
+ ,000人）\n所在地: トロント（カナダ）
+LOCATION:BMOフィールド、トロント（カナダ）
+CATEGORIES:グループL
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260627T210000Z
+DTEND:20260628T003000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260627-panama-england-70@hajime2626.github.io
+SUMMARY:🇵🇦 PAN vs ENG 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+DESCRIPTION:グループL\nスタジアム: メットライフ・スタジ
+ アム（収容: 82,500人）\n所在地: ニューヨーク/ニュージ
+ ャージー・イーストラザフォード（米国）
+LOCATION:メットライフ・スタジアム、ニューヨーク/ニュ
+ ージャージー・イーストラザフォード（米国）
+CATEGORIES:グループL
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260627T210000Z
+DTEND:20260628T003000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260627-croatia-ghana-71@hajime2626.github.io
+SUMMARY:🇭🇷 CRO vs GHA 🇬🇭
+DESCRIPTION:グループL\nスタジアム: リンカーン・フィナン
+ シャル・フィールド（収容: 69,000人）\n所在地: フィラ
+ デルフィア（米国）
+LOCATION:リンカーン・フィナンシャル・フィールド、フィ
+ ラデルフィア（米国）
+CATEGORIES:グループL
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260628T190000Z
+DTEND:20260628T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260628-2a-2b-72@hajime2626.github.io
+SUMMARY:🏳️ 2A vs 2B 🏳️
+DESCRIPTION:Round of 32\nスタジアム: SoFiスタジアム（収容: 70,
+ 000人）\n所在地: ロサンゼルス・イングルウッド（米国
+ ）
+LOCATION:SoFiスタジアム、ロサンゼルス・イングルウッド
+ （米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260629T203000Z
+DTEND:20260630T000000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260629-1e-3a/b/c/d/f-73@hajime2626.github.io
+SUMMARY:🏳️ 1E vs 3A/ 🏳️
+DESCRIPTION:Round of 32\nスタジアム: ギレット・スタジアム（
+ 収容: 65,000人）\n所在地: ボストン・フォックスボロ（
+ 米国）
+LOCATION:ギレット・スタジアム、ボストン・フォックスボ
+ ロ（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260630T010000Z
+DTEND:20260630T043000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260629-1f-2c-74@hajime2626.github.io
+SUMMARY:🏳️ 1F vs 2C 🏳️
+DESCRIPTION:Round of 32\nスタジアム: エスタディオ・BBVA（収
+ 容: 53,500人）\n所在地: モンテレー・グアダルペ（メキ
+ シコ）
+LOCATION:エスタディオ・BBVA、モンテレー・グアダルペ（
+ メキシコ）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260629T170000Z
+DTEND:20260629T203000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260629-1c-2f-75@hajime2626.github.io
+SUMMARY:🏳️ 1C vs 2F 🏳️
+DESCRIPTION:Round of 32\nスタジアム: NRGスタジアム（収容: 72,0
+ 00人）\n所在地: ヒューストン（米国）
+LOCATION:NRGスタジアム、ヒューストン（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260630T210000Z
+DTEND:20260701T003000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260630-1i-3c/d/f/g/h-76@hajime2626.github.io
+SUMMARY:🏳️ 1I vs 3C/ 🏳️
+DESCRIPTION:Round of 32\nスタジアム: メットライフ・スタジア
+ ム（収容: 82,500人）\n所在地: ニューヨーク/ニュージャ
+ ージー・イーストラザフォード（米国）
+LOCATION:メットライフ・スタジアム、ニューヨーク/ニュ
+ ージャージー・イーストラザフォード（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260630T170000Z
+DTEND:20260630T203000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260630-2e-2i-77@hajime2626.github.io
+SUMMARY:🏳️ 2E vs 2I 🏳️
+DESCRIPTION:Round of 32\nスタジアム: AT&Tスタジアム（収容: 94,
+ 000人）\n所在地: ダラス・アーリントン（米国）
+LOCATION:AT&Tスタジアム、ダラス・アーリントン（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260701T010000Z
+DTEND:20260701T043000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260630-1a-3c/e/f/h/i-78@hajime2626.github.io
+SUMMARY:🏳️ 1A vs 3C/ 🏳️
+DESCRIPTION:Round of 32\nスタジアム: エスタディオ・アステカ
+ （収容: 83,000人）\n所在地: メキシコシティ（メキシコ
+ ）
+LOCATION:エスタディオ・アステカ、メキシコシティ（メキ
+ シコ）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260701T160000Z
+DTEND:20260701T193000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260701-1l-3e/h/i/j/k-79@hajime2626.github.io
+SUMMARY:🏳️ 1L vs 3E/ 🏳️
+DESCRIPTION:Round of 32\nスタジアム: メルセデス・ベンツ・ス
+ タジアム（収容: 75,000人）\n所在地: アトランタ（米国
+ ）
+LOCATION:メルセデス・ベンツ・スタジアム、アトランタ（
+ 米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260702T000000Z
+DTEND:20260702T033000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260701-1d-3b/e/f/i/j-80@hajime2626.github.io
+SUMMARY:🏳️ 1D vs 3B/ 🏳️
+DESCRIPTION:Round of 32\nスタジアム: リーバイス・スタジアム
+ （収容: 71,000人）\n所在地: サンフランシスコ湾岸・サ
+ ンタクララ（米国）
+LOCATION:リーバイス・スタジアム、サンフランシスコ湾岸
+ ・サンタクララ（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260701T200000Z
+DTEND:20260701T233000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260701-1g-3a/e/h/i/j-81@hajime2626.github.io
+SUMMARY:🏳️ 1G vs 3A/ 🏳️
+DESCRIPTION:Round of 32\nスタジアム: ルーメン・フィールド（
+ 収容: 69,000人）\n所在地: シアトル（米国）
+LOCATION:ルーメン・フィールド、シアトル（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260702T230000Z
+DTEND:20260703T023000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260702-2k-2l-82@hajime2626.github.io
+SUMMARY:🏳️ 2K vs 2L 🏳️
+DESCRIPTION:Round of 32\nスタジアム: BMOフィールド（収容: 45,0
+ 00人）\n所在地: トロント（カナダ）
+LOCATION:BMOフィールド、トロント（カナダ）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260702T190000Z
+DTEND:20260702T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260702-1h-2j-83@hajime2626.github.io
+SUMMARY:🏳️ 1H vs 2J 🏳️
+DESCRIPTION:Round of 32\nスタジアム: SoFiスタジアム（収容: 70,
+ 000人）\n所在地: ロサンゼルス・イングルウッド（米国
+ ）
+LOCATION:SoFiスタジアム、ロサンゼルス・イングルウッド
+ （米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260703T030000Z
+DTEND:20260703T063000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260702-1b-3e/f/g/i/j-84@hajime2626.github.io
+SUMMARY:🏳️ 1B vs 3E/ 🏳️
+DESCRIPTION:Round of 32\nスタジアム: BCプレイス（収容: 54,000
+ 人）\n所在地: バンクーバー（カナダ）
+LOCATION:BCプレイス、バンクーバー（カナダ）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260703T220000Z
+DTEND:20260704T013000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260703-1j-2h-85@hajime2626.github.io
+SUMMARY:🏳️ 1J vs 2H 🏳️
+DESCRIPTION:Round of 32\nスタジアム: ハードロック・スタジア
+ ム（収容: 65,000人）\n所在地: マイアミ・マイアミガー
+ デンズ（米国）
+LOCATION:ハードロック・スタジアム、マイアミ・マイアミ
+ ガーデンズ（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260704T013000Z
+DTEND:20260704T050000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260703-1k-3d/e/i/j/l-86@hajime2626.github.io
+SUMMARY:🏳️ 1K vs 3D/ 🏳️
+DESCRIPTION:Round of 32\nスタジアム: アローヘッド・スタジア
+ ム（収容: 73,000人）\n所在地: カンザスシティ（米国）
+LOCATION:アローヘッド・スタジアム、カンザスシティ（米
+ 国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260703T180000Z
+DTEND:20260703T213000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260703-2d-2g-87@hajime2626.github.io
+SUMMARY:🏳️ 2D vs 2G 🏳️
+DESCRIPTION:Round of 32\nスタジアム: AT&Tスタジアム（収容: 94,
+ 000人）\n所在地: ダラス・アーリントン（米国）
+LOCATION:AT&Tスタジアム、ダラス・アーリントン（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260704T210000Z
+DTEND:20260705T003000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260704-w74-w77-88@hajime2626.github.io
+SUMMARY:🏳️ W74 vs W77 🏳️
+DESCRIPTION:Round of 16\nスタジアム: リンカーン・フィナンシ
+ ャル・フィールド（収容: 69,000人）\n所在地: フィラデ
+ ルフィア（米国）
+LOCATION:リンカーン・フィナンシャル・フィールド、フィ
+ ラデルフィア（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260704T170000Z
+DTEND:20260704T203000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260704-w73-w75-89@hajime2626.github.io
+SUMMARY:🏳️ W73 vs W75 🏳️
+DESCRIPTION:Round of 16\nスタジアム: NRGスタジアム（収容: 72,0
+ 00人）\n所在地: ヒューストン（米国）
+LOCATION:NRGスタジアム、ヒューストン（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260705T200000Z
+DTEND:20260705T233000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260705-w76-w78-90@hajime2626.github.io
+SUMMARY:🏳️ W76 vs W78 🏳️
+DESCRIPTION:Round of 16\nスタジアム: メットライフ・スタジア
+ ム（収容: 82,500人）\n所在地: ニューヨーク/ニュージャ
+ ージー・イーストラザフォード（米国）
+LOCATION:メットライフ・スタジアム、ニューヨーク/ニュ
+ ージャージー・イーストラザフォード（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260706T000000Z
+DTEND:20260706T033000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260705-w79-w80-91@hajime2626.github.io
+SUMMARY:🏳️ W79 vs W80 🏳️
+DESCRIPTION:Round of 16\nスタジアム: エスタディオ・アステカ
+ （収容: 83,000人）\n所在地: メキシコシティ（メキシコ
+ ）
+LOCATION:エスタディオ・アステカ、メキシコシティ（メキ
+ シコ）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260706T190000Z
+DTEND:20260706T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260706-w83-w84-92@hajime2626.github.io
+SUMMARY:🏳️ W83 vs W84 🏳️
+DESCRIPTION:Round of 16\nスタジアム: AT&Tスタジアム（収容: 94,
+ 000人）\n所在地: ダラス・アーリントン（米国）
+LOCATION:AT&Tスタジアム、ダラス・アーリントン（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260707T000000Z
+DTEND:20260707T033000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260706-w81-w82-93@hajime2626.github.io
+SUMMARY:🏳️ W81 vs W82 🏳️
+DESCRIPTION:Round of 16\nスタジアム: ルーメン・フィールド（
+ 収容: 69,000人）\n所在地: シアトル（米国）
+LOCATION:ルーメン・フィールド、シアトル（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260707T160000Z
+DTEND:20260707T193000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260707-w86-w88-94@hajime2626.github.io
+SUMMARY:🏳️ W86 vs W88 🏳️
+DESCRIPTION:Round of 16\nスタジアム: メルセデス・ベンツ・ス
+ タジアム（収容: 75,000人）\n所在地: アトランタ（米国
+ ）
+LOCATION:メルセデス・ベンツ・スタジアム、アトランタ（
+ 米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260707T200000Z
+DTEND:20260707T233000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260707-w85-w87-95@hajime2626.github.io
+SUMMARY:🏳️ W85 vs W87 🏳️
+DESCRIPTION:Round of 16\nスタジアム: BCプレイス（収容: 54,000
+ 人）\n所在地: バンクーバー（カナダ）
+LOCATION:BCプレイス、バンクーバー（カナダ）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260709T200000Z
+DTEND:20260709T233000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260709-w89-w90-96@hajime2626.github.io
+SUMMARY:🏳️ W89 vs W90 🏳️
+DESCRIPTION:Quarter-final\nスタジアム: ギレット・スタジアム
+ （収容: 65,000人）\n所在地: ボストン・フォックスボロ
+ （米国）
+LOCATION:ギレット・スタジアム、ボストン・フォックスボ
+ ロ（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260710T190000Z
+DTEND:20260710T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260710-w93-w94-97@hajime2626.github.io
+SUMMARY:🏳️ W93 vs W94 🏳️
+DESCRIPTION:Quarter-final\nスタジアム: SoFiスタジアム（収容: 7
+ 0,000人）\n所在地: ロサンゼルス・イングルウッド（米
+ 国）
+LOCATION:SoFiスタジアム、ロサンゼルス・イングルウッド
+ （米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260711T210000Z
+DTEND:20260712T003000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260711-w91-w92-98@hajime2626.github.io
+SUMMARY:🏳️ W91 vs W92 🏳️
+DESCRIPTION:Quarter-final\nスタジアム: ハードロック・スタジ
+ アム（収容: 65,000人）\n所在地: マイアミ・マイアミガ
+ ーデンズ（米国）
+LOCATION:ハードロック・スタジアム、マイアミ・マイアミ
+ ガーデンズ（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260712T010000Z
+DTEND:20260712T043000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260711-w95-w96-99@hajime2626.github.io
+SUMMARY:🏳️ W95 vs W96 🏳️
+DESCRIPTION:Quarter-final\nスタジアム: アローヘッド・スタジ
+ アム（収容: 73,000人）\n所在地: カンザスシティ（米国
+ ）
+LOCATION:アローヘッド・スタジアム、カンザスシティ（米
+ 国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260714T190000Z
+DTEND:20260714T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260714-w97-w98-100@hajime2626.github.io
+SUMMARY:🏳️ W97 vs W98 🏳️
+DESCRIPTION:Semi-final\nスタジアム: AT&Tスタジアム（収容: 94,0
+ 00人）\n所在地: ダラス・アーリントン（米国）
+LOCATION:AT&Tスタジアム、ダラス・アーリントン（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260715T190000Z
+DTEND:20260715T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260715-w99-w100-101@hajime2626.github.io
+SUMMARY:🏳️ W99 vs W10 🏳️
+DESCRIPTION:Semi-final\nスタジアム: メルセデス・ベンツ・ス
+ タジアム（収容: 75,000人）\n所在地: アトランタ（米国
+ ）
+LOCATION:メルセデス・ベンツ・スタジアム、アトランタ（
+ 米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260718T210000Z
+DTEND:20260719T003000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260718-l101-l102-102@hajime2626.github.io
+SUMMARY:🏳️ L10 vs L10 🏳️
+DESCRIPTION:Match for third place\nスタジアム: ハードロック・
+ スタジアム（収容: 65,000人）\n所在地: マイアミ・マイ
+ アミガーデンズ（米国）
+LOCATION:ハードロック・スタジアム、マイアミ・マイアミ
+ ガーデンズ（米国）
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20260719T190000Z
+DTEND:20260719T223000Z
+DTSTAMP:20260608T101036Z
+UID:wc2026-20260719-w101-w102-103@hajime2626.github.io
+SUMMARY:🏆 🏳️ W10 vs W10 🏳️
+DESCRIPTION:Final\nスタジアム: メットライフ・スタジアム（
+ 収容: 82,500人）\n所在地: ニューヨーク/ニュージャージ
+ ー・イーストラザフォード（米国）
+LOCATION:メットライフ・スタジアム、ニューヨーク/ニュ
+ ージャージー・イーストラザフォード（米国）
+END:VEVENT
+END:VCALENDAR
