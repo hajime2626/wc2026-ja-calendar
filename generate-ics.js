@@ -75,6 +75,45 @@ const GROUPS = {
   "Group G": "グループG", "Group H": "グループH", "Group I": "グループI",
   "Group J": "グループJ", "Group K": "グループK", "Group L": "グループL",
 };
+// 放送局テーブル（グループステージ）
+// キー: "team1 vs team2"（openfootball の英語チーム名）
+const BROADCASTS = {
+  "Mexico vs South Africa":           "NHK総合",
+  "Canada vs Bosnia & Herzegovina":   "NHK総合",
+  "Haiti vs Scotland":                "NHK総合",
+  "Australia vs Turkey":              "日本テレビ",
+  "Netherlands vs Japan":             "NHK総合",
+  "Sweden vs Tunisia":                "日本テレビ",
+  "Spain vs Cape Verde":              "NHK総合",
+  "Belgium vs Egypt":                 "NHK総合",
+  "France vs Senegal":                "フジテレビ",
+  "Argentina vs Algeria":             "NHK総合",
+  "Portugal vs DR Congo":             "フジテレビ",
+  "Czech Republic vs South Africa":   "日本テレビ",
+  "Mexico vs South Korea":            "NHK総合",
+  "USA vs Australia":                 "NHK総合",
+  "Scotland vs Morocco":              "フジテレビ",
+  "Brazil vs Haiti":                  "NHK総合",
+  "Netherlands vs Sweden":            "NHK総合",
+  "Germany vs Ivory Coast":           "日本テレビ",
+  "Tunisia vs Japan":                 "日本テレビ",
+  "Spain vs Saudi Arabia":            "NHK総合",
+  "Norway vs Senegal":                "NHK総合",
+  "Portugal vs Uzbekistan":           "NHK総合",
+  "Panama vs Croatia":                "フジテレビ",
+  "Colombia vs DR Congo":             "日本テレビ",
+  "Switzerland vs Canada":            "NHK総合",
+  "Czech Republic vs Mexico":         "NHK総合",
+  "Japan vs Sweden":                  "NHK総合",
+  "Turkey vs USA":                    "日本テレビ",
+  "Norway vs France":                 "NHK総合",
+  "Uruguay vs Spain":                 "日本テレビ",
+  "New Zealand vs Belgium":           "日本テレビ",
+  "Colombia vs Portugal":             "フジテレビ",
+  "Jordan vs Argentina":              "NHK総合",
+};
+
+
 
 // スタジアム情報（city キーで引く）
 // generate-ics.js 起動時に stadiums.json から構築する
@@ -102,9 +141,15 @@ function parseMatchDate(m) {
   return new Date(base.getTime() - parseInt(off) * 3600000);
 }
 
-// ICS 日時フォーマット: 20260611T190000Z
+// ICS 日時フォーマット: 20260611T190000Z (UTC)
 function icsDatetime(d) {
   return d.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+}
+
+// ICS 日時フォーマット（JST: UTC+9）: 20260615T050000
+function icsDatetimeJST(d) {
+  const jst = new Date(d.getTime() + 9 * 3600000);
+  return jst.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z/, '');
 }
 
 // ICS テキスト折り返し（RFC 5545: 75オクテット）
@@ -193,6 +238,11 @@ function buildDescription(m) {
   fmtSubs(m.subs1, m.team1);
   fmtSubs(m.subs2, m.team2);
 
+  // 放送局
+  const broadcastKey = `${m.team1} vs ${m.team2}`;
+  const broadcaster = BROADCASTS[broadcastKey];
+  if (broadcaster) lines.push(`放送: ${broadcaster}`);
+
   return lines.join('\\n');
 }
 
@@ -235,17 +285,29 @@ function generateICS(data) {
   const now = new Date();
   const stamp = icsDatetime(now);
 
+  const vtimezone = [
+    'BEGIN:VTIMEZONE',
+    'TZID:Asia/Tokyo',
+    'BEGIN:STANDARD',
+    'TZOFFSETFROM:+0900',
+    'TZOFFSETTO:+0900',
+    'TZNAME:JST',
+    'DTSTART:19700101T000000',
+    'END:STANDARD',
+    'END:VTIMEZONE',
+  ].join('\r\n');
+
   const header = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
     'PRODID:-//hajime2626//wc2026-ja-calendar//JA',
-    'X-WR-CALNAME:2026 FIFAワールドカップ ⚽',
-    'X-WR-TIMEZONE:UTC',
-    'X-WR-CALDESC:2026 FIFAワールドカップ 全104試合（openfootball データ）',
+    'X-WR-CALNAME:2026 FIFAワールドカップ',
+    'X-WR-TIMEZONE:Asia/Tokyo',
+    'X-WR-CALDESC:2026 FIFAワールドカップ 全104試合（日本時間）',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     `LAST-MODIFIED:${stamp}`,
-    'REFRESH-INTERVAL;VALUE=DURATION:PT1H',  // カレンダーに1時間ごと再取得を要求
+    'REFRESH-INTERVAL;VALUE=DURATION:PT1H',
     'X-PUBLISHED-TTL:PT1H',
     '',
   ].join('\r\n');
@@ -260,8 +322,8 @@ function generateICS(data) {
 
     const lines = [
       'BEGIN:VEVENT',
-      `DTSTART:${icsDatetime(startDate)}`,
-      `DTEND:${icsDatetime(endDate)}`,
+      `DTSTART;TZID=Asia/Tokyo:${icsDatetimeJST(startDate)}`,
+      `DTEND;TZID=Asia/Tokyo:${icsDatetimeJST(endDate)}`,
       `DTSTAMP:${stamp}`,
       foldLine(`UID:${buildUID(m, idx)}`),
       foldLine(`SUMMARY:${buildSummary(m)}`),
@@ -279,7 +341,7 @@ function generateICS(data) {
     return lines.join('\r\n');
   }).filter(Boolean);
 
-  return header + events.join('\r\n\r\n') + '\r\nEND:VCALENDAR';
+  return header + vtimezone + '\r\n\r\n' + events.join('\r\n\r\n') + '\r\nEND:VCALENDAR';
 }
 
 // ─────────────────────────────────────────
