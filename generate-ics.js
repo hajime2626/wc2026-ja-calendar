@@ -113,6 +113,36 @@ const BROADCASTS = {
   "Jordan vs Argentina":              "NHK総合",
 };
 
+// 放送局テーブル（決勝トーナメント）
+// キー: openfootball の試合番号 num（対戦カード確定の有無に依存せず安定）。
+// 地上波/BS のみ記載（DAZN 配信のみの試合は登録しない）。
+// 出典: げきさか 放送予定 https://web.gekisaka.jp/pickup/detail/?445880-445880-fl
+const KO_BROADCASTS = {
+  73: "NHK総合",     // 南アフリカ vs カナダ（ラウンド32）
+  76: "フジテレビ",   // ブラジル vs 日本
+  77: "フジテレビ",   // フランス vs スウェーデン
+  78: "日本テレビ",   // コートジボワール vs ノルウェー
+  80: "フジテレビ",   // イングランド vs コンゴ民主
+  81: "NHK総合",     // アメリカ vs ボスニア
+  82: "NHK総合",     // ベルギー vs セネガル
+  83: "日本テレビ",   // ポルトガル vs クロアチア
+  84: "NHK総合",     // スペイン vs オーストリア
+  85: "NHK総合",     // スイス vs アルジェリア
+  86: "日本テレビ",   // アルゼンチン vs カーボベルデ
+  88: "NHK総合",     // オーストラリア vs エジプト
+  89: "日本テレビ",   // パラグアイ vs フランス（ラウンド16）
+  90: "NHK総合",     // カナダ vs モロッコ
+  91: "NHK総合",     // ブラジル vs ノルウェー
+  93: "日本テレビ",   // ポルトガル vs スペイン
+  94: "フジテレビ",   // アメリカ vs ベルギー
+  96: "NHK総合",     // スイス vs コロンビア
+  99: "NHK総合",     // ノルウェー vs イングランド（準々決勝）
+  101: "日本テレビ",  // 準決勝1
+  102: "NHK総合",    // 準決勝2
+  103: "NHK総合",    // 3位決定戦
+  104: "NHK総合",    // 決勝
+};
+
 
 
 // スタジアム情報（city キーで引く）
@@ -238,9 +268,8 @@ function buildDescription(m) {
   fmtSubs(m.subs1, m.team1);
   fmtSubs(m.subs2, m.team2);
 
-  // 放送局
-  const broadcastKey = `${m.team1} vs ${m.team2}`;
-  const broadcaster = BROADCASTS[broadcastKey];
+  // 放送局（グループステージ=対戦カード, 決勝トーナメント=試合番号 num）
+  const broadcaster = BROADCASTS[`${m.team1} vs ${m.team2}`] || KO_BROADCASTS[m.num];
   if (broadcaster) lines.push(`放送: ${broadcaster}`);
 
   return lines.join('\\n');
@@ -402,16 +431,55 @@ function buildStadiumMap(stadiumData) {
 // ─────────────────────────────────────────
 // HTTP fetch
 // ─────────────────────────────────────────
-function fetchJSON(url) {
+const FETCH_TIMEOUT_MS = 15000;
+const MAX_RETRIES      = 3;   // 初回 + 3リトライ = 最大4回
+const MAX_REDIRECTS    = 5;
+
+// statusCode 確認・リダイレクト追従・タイムアウト・指数的リトライ付き。
+// raw.githubusercontent.com の一過性エラー（429/5xx/切断）で
+// ジョブが即失敗しないようにする。
+function fetchJSON(url, { retries = MAX_RETRIES, redirects = MAX_REDIRECTS } = {}) {
   return new Promise((resolve, reject) => {
-    https.get(url, res => {
+    const req = https.get(url, {
+      timeout: FETCH_TIMEOUT_MS,
+      headers: { 'User-Agent': 'wc2026-ja-calendar (+https://github.com/hajime2626/wc2026-ja-calendar)' },
+    }, res => {
+      const status = res.statusCode;
+
+      // リダイレクト追従
+      if (status >= 300 && status < 400 && res.headers.location) {
+        res.resume();
+        if (redirects <= 0) return reject(new Error(`Too many redirects from ${url}`));
+        const next = new URL(res.headers.location, url).toString();
+        return resolve(fetchJSON(next, { retries, redirects: redirects - 1 }));
+      }
+
+      // 非200 はリトライ対象
+      if (status !== 200) {
+        res.resume();
+        return retryOrReject(new Error(`HTTP ${status} from ${url}`));
+      }
+
       let body = '';
       res.on('data', chunk => body += chunk);
       res.on('end', () => {
         try { resolve(JSON.parse(body)); }
-        catch (e) { reject(new Error(`JSON parse error from ${url}: ${e.message}`)); }
+        catch (e) { retryOrReject(new Error(`JSON parse error from ${url}: ${e.message}`)); }
       });
-    }).on('error', reject);
+    });
+
+    req.on('timeout', () => req.destroy(new Error(`Timeout after ${FETCH_TIMEOUT_MS}ms from ${url}`)));
+    req.on('error', retryOrReject);
+
+    function retryOrReject(err) {
+      if (retries > 0) {
+        const wait = (MAX_RETRIES - retries + 1) * 2000; // 2s, 4s, 6s
+        console.warn(`      fetch failed: ${err.message} — retrying in ${wait / 1000}s (${retries - 1} left)`);
+        setTimeout(() => resolve(fetchJSON(url, { retries: retries - 1, redirects })), wait);
+      } else {
+        reject(err);
+      }
+    }
   });
 }
 
